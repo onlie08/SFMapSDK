@@ -1,0 +1,23 @@
+PODS:
+  - SFMapFoundation (0.1.0)
+  - SFMapSDK (0.1.0):
+    - SFMapFoundation
+
+DEPENDENCIES:
+  - SFMapSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SFMapFoundation
+
+EXTERNAL SOURCES:
+  SFMapSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFMapFoundation: 7b3c35e1ee520f08ef35d03ab6592017a9cc0069
+  SFMapSDK: 02cb75f562036c8f537f84e9f387073669277ee3
+
+PODFILE CHECKSUM: 864334e5cb607e878cb2a122316ddd1cac0ab0fa
+
+COCOAPODS: 1.5.3

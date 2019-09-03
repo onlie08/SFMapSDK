@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF534B5BE45EB78BDF23307F5312D0D /* Pods-SFMapSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B797476CB16B3B61DF1ED88ADC7BE40 /* Pods-SFMapSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2480AE9C9F8387900C7AA9A613B62A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		47522C4E995C295E9EC94FA494445FF8 /* Pods-SFMapSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98841DA4B6BB7984E24F4EB1AB40FE46 /* Pods-SFMapSDK_Example-dummy.m */; };
+		6E57980B45FB57F461034A4272B42531 /* Pods-SFMapSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9D5E3AD22E9C86747C289CE707215 /* Pods-SFMapSDK_Tests-dummy.m */; };
+		9A44E671ACAFDE3B270028FA24600148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B038268AD00D2DF5D9B8928C75089788 /* Pods-SFMapSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A550760590A49CB8F526F099C494E5B /* Pods-SFMapSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550170CEBBECA4D4D942475C0B168679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0170D740B6EEFF9B66791BC2F942A452;
+			remoteInfo = "Pods-SFMapSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C2E8F1A8E639EE4E899AE7BF81181E /* LDASICacheDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASICacheDelegate.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASICacheDelegate.h; sourceTree = "<group>"; };
+		049CB3EA1956419FBEC6D8C3EDCE7390 /* XYMMapResManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMMapResManager.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMMapResManager.h; sourceTree = "<group>"; };
+		04AEFAE0B556C998EC30506729276A77 /* LMKViewRecycler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKViewRecycler.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKViewRecycler.h; sourceTree = "<group>"; };
+		04F6A62D702A310A451125C5A6536F7E /* LMKPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPolyline.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPolyline.h; sourceTree = "<group>"; };
+		06033AEF6F206047FFFFF838084BC18C /* LMKArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKArc.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKArc.h; sourceTree = "<group>"; };
+		060DE2FA1238F7389380A9CCA68C000D /* LMKTileOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKTileOverlayView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKTileOverlayView.h; sourceTree = "<group>"; };
+		07868F74A89F9F90E570612404A299FC /* XYMap3DDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DDefines.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DDefines.h; sourceTree = "<group>"; };
+		08BB2241F6AF961D4E44F87D04097B87 /* NSArray+SFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SFAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSArray+SFAdditions.h"; sourceTree = "<group>"; };
+		08C5B8CE52B532D8218018CC0808D392 /* LMKPolygonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPolygonView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPolygonView.h; sourceTree = "<group>"; };
+		0CFBBA4687F364333C857D88227AD76B /* NSData+SFAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SFAES.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSData+SFAES.h"; sourceTree = "<group>"; };
+		0EAAE6F057EE863C0388389320D56C2E /* LDMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LDMap.bundle; path = SFMapSDK/Assets/LDMap.bundle; sourceTree = "<group>"; };
+		119CBA584EF16E5841E40D3A6759511A /* SFConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SFConstraint+Private.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/SFConstraint+Private.h"; sourceTree = "<group>"; };
+		1311CE37C2E897191F3A148DE6DA8842 /* LMKMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMapKit.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMapKit.h; sourceTree = "<group>"; };
+		13B141EF08974CFDB5C87A4C97D9E110 /* LDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDExtension.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDExtension.h; sourceTree = "<group>"; };
+		144A27561F415CAB6DB4C33D4A9C14E4 /* SF3DESEncryptUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SF3DESEncryptUtil.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SF3DESEncryptUtil.h; sourceTree = "<group>"; };
+		14C51D69FD4B505536E7828AC2182192 /* LMKMultiPoint_Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMultiPoint_Addition.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMultiPoint_Addition.h; sourceTree = "<group>"; };
+		15C3617F670B348A2431F84E2C301F33 /* ViewController+SFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+SFAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/ViewController+SFAdditions.h"; sourceTree = "<group>"; };
+		172C7FB16001B60AF446BE0CBF9CDEBF /* LMKMapView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LMKMapView+Private.h"; path = "SFMapSDK/SFMapSDK.framework/Headers/LMKMapView+Private.h"; sourceTree = "<group>"; };
+		1767E299003FB9FCCD0EF1A5E7F0687B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858925AB6E30945B092085C90B7FDAD /* LNCoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNCoreLocation.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LNCoreLocation.h; sourceTree = "<group>"; };
+		1874FC57E39D2969FB45832EF86FFD99 /* NSArray+SFShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SFShorthandAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSArray+SFShorthandAdditions.h"; sourceTree = "<group>"; };
+		1878CCDB55ECBAB260FDDCBEA3D2E44F /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/ZipArchive.h; sourceTree = "<group>"; };
+		1C0919E1FC68796623194328EE79CCA1 /* LMKOfflineItem+private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LMKOfflineItem+private.h"; path = "SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineItem+private.h"; sourceTree = "<group>"; };
+		1C969D81C7F5CBFBE7B0D526F1C35F34 /* NSObject+LDProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LDProperty.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSObject+LDProperty.h"; sourceTree = "<group>"; };
+		1ED364C8EFB76B1E5C9972BB5D2D942F /* LMKToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKToastView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKToastView.h; sourceTree = "<group>"; };
+		1FA5DF833FA7339A2F00F79AD2B4163C /* LMKShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKShape.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKShape.h; sourceTree = "<group>"; };
+		2232AD6FB69ABE3ADA6D0DFD50C30117 /* LMKMultiTexturePolylineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMultiTexturePolylineView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMultiTexturePolylineView.h; sourceTree = "<group>"; };
+		22473529E91BD5CB6AC80B1FFC0540CE /* GLKVector3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKVector3.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKVector3.h; sourceTree = "<group>"; };
+		22B6F6319BC5D7B7665C7B5717AAFC78 /* SFViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFViewAttribute.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFViewAttribute.h; sourceTree = "<group>"; };
+		22F5BE4899B04FA8471EE1F03D148924 /* XYMap3DOverlays.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DOverlays.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DOverlays.h; sourceTree = "<group>"; };
+		2310E4436461BE58899745FE9270C898 /* LDASIDataCompressor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIDataCompressor.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIDataCompressor.h; sourceTree = "<group>"; };
+		231C51F73DC838DA85F9B9B342957BDF /* NSString+LDNaviAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LDNaviAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSString+LDNaviAdditions.h"; sourceTree = "<group>"; };
+		234A56B47B00F975566B4F3658AF0DE2 /* GLKVector4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKVector4.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKVector4.h; sourceTree = "<group>"; };
+		246FD3138C6AC2D6AA4E40C439C3297C /* LMKQuadItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKQuadItem.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKQuadItem.h; sourceTree = "<group>"; };
+		273C3FEE3F836A5EA121C937463775D2 /* me_mapapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = me_mapapi.h; path = SFMapSDK/SFMapSDK.framework/Headers/me_mapapi.h; sourceTree = "<group>"; };
+		28C18038C2B95B22CD2AED900AAAB6B5 /* Pods-SFMapSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFMapSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2919C2B6E71B1862FB0BC94AEABC0BD3 /* NSObject+LDKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LDKeyValue.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSObject+LDKeyValue.h"; sourceTree = "<group>"; };
+		29FF2E87EE8FA14B8CB31FB2C946F529 /* LMKGroundOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKGroundOverlayView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKGroundOverlayView.h; sourceTree = "<group>"; };
+		2B797476CB16B3B61DF1ED88ADC7BE40 /* Pods-SFMapSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFMapSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2C0C10ACEA0906083AA4646B6BC3C632 /* SFEncryptionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFEncryptionHelper.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFEncryptionHelper.h; sourceTree = "<group>"; };
+		2C1885BF7B0E54B337B9018039A80F6D /* LMKClusterQuadtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKClusterQuadtree.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKClusterQuadtree.h; sourceTree = "<group>"; };
+		30FEC1F9800A236B2DDA42D8C812A969 /* GLKMathUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKMathUtils.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKMathUtils.h; sourceTree = "<group>"; };
+		310E97B34027ED19EA700742349F3293 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64Additions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		33245264B9947432F3A96FFB5E8D64AF /* LMKBezierBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKBezierBuilder.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKBezierBuilder.h; sourceTree = "<group>"; };
+		336A16B5FD3798A8DCCEE29DCE90BF2C /* Pods-SFMapSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFMapSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		34E5956BD3DFB4E3E4848B899B8E9869 /* SFMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMCache.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMCache.h; sourceTree = "<group>"; };
+		387752926C1F7C5B0AF75CC6AFF4C446 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B83D60F30564E1025962E0D99187192 /* SFMapSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SFMapSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D0EDCC5F013371D24EF56EDEB50C34B /* LMKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMapView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMapView.h; sourceTree = "<group>"; };
+		430B8943C7644786B964E080C971F92B /* LDASIFormDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIFormDataRequest.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIFormDataRequest.h; sourceTree = "<group>"; };
+		44E3E75D552D25527DA07785A3909816 /* LMKPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPolygon.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPolygon.h; sourceTree = "<group>"; };
+		467AD3D18F72D0D2856926C046781BB4 /* Pods-SFMapSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMapSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46C081EE3F92BF12C713C58DF52CB942 /* LDProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDProperty.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDProperty.h; sourceTree = "<group>"; };
+		47EB3D2C0DE2F35FF7AA007558805C7A /* SFMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMDiskCache.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMDiskCache.h; sourceTree = "<group>"; };
+		4F293495DF41DD4E318763E51DB0D80A /* LMKOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineItem.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineItem.h; sourceTree = "<group>"; };
+		52D07305652E6D262BAA24DD90E6E887 /* LNCoordConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNCoordConvert.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LNCoordConvert.h; sourceTree = "<group>"; };
+		531B2397722ED3DC874765171B76391A /* XYMMapViewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMMapViewPlugin.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMMapViewPlugin.h; sourceTree = "<group>"; };
+		554B9B0CC3D7F925C4F807C9F0978D28 /* LMKOverlayPathView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOverlayPathView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOverlayPathView.h; sourceTree = "<group>"; };
+		559F772834C11148507E05A21C362AEE /* LMKMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMultiPoint.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMultiPoint.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B407396A93F85191AAB1F700941B88F /* GLKVector2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKVector2.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKVector2.h; sourceTree = "<group>"; };
+		5CB720DDD0A0D6957B643AA16544C7E9 /* WXMProjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMProjection.h; path = SFMapSDK/SFMapSDK.framework/Headers/WXMProjection.h; sourceTree = "<group>"; };
+		5D41DB6CFAADA52BC7328999CFE7DD5E /* WXMBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMBaseView.h; path = SFMapSDK/SFMapSDK.framework/Headers/WXMBaseView.h; sourceTree = "<group>"; };
+		5DED2A13B46892E8D287829521119D1F /* LMKPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPinAnnotationView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPinAnnotationView.h; sourceTree = "<group>"; };
+		5F4BA50ACDB8D841B5B48CA2A77F2648 /* SFRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFRSA.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFRSA.h; sourceTree = "<group>"; };
+		60BE64E1790335F1CA5A65E81BA01F61 /* LMKOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineMap.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineMap.h; sourceTree = "<group>"; };
+		61370C98518595238D4D9B44B2D5ECCB /* SFMKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMKVStorage.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMKVStorage.h; sourceTree = "<group>"; };
+		65B83DB2B6C46A85A6AFC0C53E397856 /* Pods-SFMapSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFMapSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		662095E39822547310781BD00ED1EE0C /* LMKMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMultiPolyline.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMultiPolyline.h; sourceTree = "<group>"; };
+		67D64E3D012DBD3BC1360CE7C61BF9FB /* LMKGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKGroundOverlay.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKGroundOverlay.h; sourceTree = "<group>"; };
+		6954B94845A8CAAE2E48658EA25806C8 /* LDASIProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIProgressDelegate.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIProgressDelegate.h; sourceTree = "<group>"; };
+		6998733A59F698F33FA74F25E88F1536 /* NSObject+LDCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LDCoding.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSObject+LDCoding.h"; sourceTree = "<group>"; };
+		6B25369B0991453C128AF0816D1BABBC /* XYMMapPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMMapPlatform.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMMapPlatform.h; sourceTree = "<group>"; };
+		6CF9C912D72825F512403A5C46A7EE23 /* LMKBusRouteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKBusRouteView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKBusRouteView.h; sourceTree = "<group>"; };
+		6DF5051332AFA5F1BA4FE4A58ED7F311 /* SFMapFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFMapFoundation.framework; path = SFMapFoundation/SFMapFoundation.framework; sourceTree = "<group>"; };
+		6DF9D5E3AD22E9C86747C289CE707215 /* Pods-SFMapSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFMapSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EC679C1E465C52C0FFFA9B73508B84E /* LMKPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPointAnnotation.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPointAnnotation.h; sourceTree = "<group>"; };
+		6EC8B342E581AA80984217A43213B029 /* LDExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDExtensionConst.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDExtensionConst.h; sourceTree = "<group>"; };
+		7018CDD3D9B32A99ADE3CFE93DA9D815 /* SFGzipUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFGzipUtility.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFGzipUtility.h; sourceTree = "<group>"; };
+		71B43F8206CB4A62BF18CA5447DF41EA /* SFOfflineAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFOfflineAuthentication.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFOfflineAuthentication.h; sourceTree = "<group>"; };
+		726650F1ECD3D6D5E539FAE6355D8960 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E663151C4F9FB4CFAA52447AA65183 /* LNGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNGeometry.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LNGeometry.h; sourceTree = "<group>"; };
+		77F9FDEF0107D32EA9D11CCCBB71E2AB /* SFViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFViewConstraint.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFViewConstraint.h; sourceTree = "<group>"; };
+		7A29DFCB55C87798778BD8FD178DFF2A /* LMKOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOverlay.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOverlay.h; sourceTree = "<group>"; };
+		7D0A2FE25B3C6E6078A14C1A1F8C5CC9 /* LMKOverlayFloor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOverlayFloor.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOverlayFloor.h; sourceTree = "<group>"; };
+		7D77F98A1FFEA81617692A773CB3CFC1 /* SFMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFMapSDK.framework; path = SFMapSDK/SFMapSDK.framework; sourceTree = "<group>"; };
+		7E10B175BA9BA85111DEB55DE5C550CB /* Pods_SFMapSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFMapSDK_Tests.framework; path = "Pods-SFMapSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80844761934F67E3C50BEB819B5770C4 /* LMKOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineItemCommonCity.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineItemCommonCity.h; sourceTree = "<group>"; };
+		80F32ED189BA37AC3E4C62E5C5CD40D5 /* LDASIAuthenticationDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIAuthenticationDialog.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		81C12DEC37BF1B4E2ECC4DF42D3DFC0D /* Pods-SFMapSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMapSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		822B6DA1D24923189146F5EF48BB9C31 /* XYMGLContextManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMGLContextManager.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMGLContextManager.h; sourceTree = "<group>"; };
+		82B11BA50428F2D26E4D2E8BB40D5742 /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utils.h; path = SFMapSDK/SFMapSDK.framework/Headers/utils.h; sourceTree = "<group>"; };
+		8388E93BB56EAE826DFCD273C00C47D4 /* CLineBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLineBuilder.h; path = SFMapSDK/SFMapSDK.framework/Headers/CLineBuilder.h; sourceTree = "<group>"; };
+		8539ED83677D569FD3BE024826CE2AEC /* LMKOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineItemNationWide.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineItemNationWide.h; sourceTree = "<group>"; };
+		85426E7B08E52357CAA6532BD0453F1A /* LDASIReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIReachability.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIReachability.h; sourceTree = "<group>"; };
+		86691BE903C99EBD5896257E39D0C3A5 /* LMKPolylineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKPolylineView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKPolylineView.h; sourceTree = "<group>"; };
+		86A57FA3EF5DE599E8D6D666A1B69B75 /* LMKMapServiceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMapServiceHelper.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMapServiceHelper.h; sourceTree = "<group>"; };
+		870F7ECB5E9F887599266ACBDDF9104C /* NSLayoutConstraint+SFDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+SFDebugAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSLayoutConstraint+SFDebugAdditions.h"; sourceTree = "<group>"; };
+		8A550760590A49CB8F526F099C494E5B /* Pods-SFMapSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFMapSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A7D4FB5804745236CE9A7EB9A9AB201 /* SFDESCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFDESCrypto.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFDESCrypto.h; sourceTree = "<group>"; };
+		8DA864261930B801185CFB4C58708A8E /* LMKTouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKTouchPoi.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKTouchPoi.h; sourceTree = "<group>"; };
+		906DA642351C13111EB94F919F18AF43 /* LMKOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineItemMunicipality.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineItemMunicipality.h; sourceTree = "<group>"; };
+		912A2FA5A123D3992129CCE73423E2C7 /* SFUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFUtilities.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFUtilities.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B94C32550C45E44B3EB3635B31EC01 /* LMKMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMarker.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMarker.h; sourceTree = "<group>"; };
+		954B3EAE5D3BE24F4629E0AA83BAD76A /* SFMasonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMasonry.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMasonry.h; sourceTree = "<group>"; };
+		95DB55670F81F77FC20032B56C2A42BF /* NSString+LDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LDExtension.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSString+LDExtension.h"; sourceTree = "<group>"; };
+		97D417521F4B69510B409D4DBC42AAEB /* SFAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFAuthenticate.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFAuthenticate.h; sourceTree = "<group>"; };
+		98841DA4B6BB7984E24F4EB1AB40FE46 /* Pods-SFMapSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFMapSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		98F84BFF62A81C5C4D518BBB2B4597C0 /* LMKCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCluster.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCluster.h; sourceTree = "<group>"; };
+		999D56A8C1A8F00C6D883A88E3A96444 /* XYMap3DGeomtery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DGeomtery.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DGeomtery.h; sourceTree = "<group>"; };
+		9A3C15441764010E754E7D2BB523473B /* GLKMathTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKMathTypes.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKMathTypes.h; sourceTree = "<group>"; };
+		9DACE9AE9DDA2ECD36C1756DCF469D88 /* LDASIHTTPRequestConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIHTTPRequestConfig.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		9EFD5683B6B1F2CF64EFF88EF09BDD5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9F4C096312DE58738B0AD431E25DCA0F /* LMKClusterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKClusterManager.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKClusterManager.h; sourceTree = "<group>"; };
+		A10379150A1DA9A3AD66E7DBC16C2597 /* LMKLineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKLineDrawType.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKLineDrawType.h; sourceTree = "<group>"; };
+		A2DFE027865175ADCB91C25A39AD17AA /* LDASIDownloadCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIDownloadCache.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIDownloadCache.h; sourceTree = "<group>"; };
+		A30676A105DD546D4160E87EA5D0563B /* GLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKit.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKit.h; sourceTree = "<group>"; };
+		A4C9D0C81DD61110330790CD3EA66590 /* me_defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = me_defines.h; path = SFMapSDK/SFMapSDK.framework/Headers/me_defines.h; sourceTree = "<group>"; };
+		A60EA10F8497732FA48205DEBB297305 /* LMKDownLoader2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKDownLoader2.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKDownLoader2.h; sourceTree = "<group>"; };
+		A830833389B38EF8F8713CC6E572E941 /* Pods-SFMapSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFMapSDK_Example.modulemap"; sourceTree = "<group>"; };
+		A84ACA9F6662A1CDC59AD40C4530079C /* LMKArcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKArcView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKArcView.h; sourceTree = "<group>"; };
+		AA98787B91D8724FECC2C7A9F44BB591 /* Pods-SFMapSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFMapSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAAF6CDE1DE3DC906F18D411F8360833 /* LMKMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKMapServices.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKMapServices.h; sourceTree = "<group>"; };
+		AC7FBB2BAE28F80BB7F1E2FBF6A117C7 /* LDASINetworkQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASINetworkQueue.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASINetworkQueue.h; sourceTree = "<group>"; };
+		ACDBC432D4FD4CEFCDC679E4F28E9B98 /* PVRTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PVRTexture.h; path = SFMapSDK/SFMapSDK.framework/Headers/PVRTexture.h; sourceTree = "<group>"; };
+		ADCF48A6458B342B1929A72F17789EA7 /* SFFoundationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFFoundationHelper.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFFoundationHelper.h; sourceTree = "<group>"; };
+		AF29F85695277AF5EE23B7FFDA11D961 /* Pods_SFMapSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFMapSDK_Example.framework; path = "Pods-SFMapSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7BB51BF9E43E31B31E6B9FA6EA58C2 /* Pods-SFMapSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMapSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B036D5EB3783FB200CD98B3981D77E90 /* LDPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPropertyType.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDPropertyType.h; sourceTree = "<group>"; };
+		B0DA4886985AA252BC5B7E24051C8C53 /* LMKTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKTileOverlay.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKTileOverlay.h; sourceTree = "<group>"; };
+		B2CFA461069D7B9852331562F5FE98DA /* LMKGLUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKGLUtility.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKGLUtility.h; sourceTree = "<group>"; };
+		B44B887F4DBA64A412F81AD49A6810C6 /* SFMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMMemoryCache.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMMemoryCache.h; sourceTree = "<group>"; };
+		B4F5B692769FD361266BD9D190372575 /* LMKCalloutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCalloutView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCalloutView.h; sourceTree = "<group>"; };
+		B5B2DB1748AE282B737029831760EF7D /* SFConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFConstraint.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFConstraint.h; sourceTree = "<group>"; };
+		B6253558ED40EDF5D0A2D5902D98C288 /* LDASIInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIInputStream.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIInputStream.h; sourceTree = "<group>"; };
+		B6ADB8FA37ABD7E2E4A4DC831EF621EC /* LMKCircle_Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCircle_Addition.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCircle_Addition.h; sourceTree = "<group>"; };
+		B712B89983CADE040FF2EDA572D8F0B1 /* LMKCustomDrawOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCustomDrawOverlay.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCustomDrawOverlay.h; sourceTree = "<group>"; };
+		B774F15C7AAA286D73B7BB428ECECF23 /* GLKMatrix3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKMatrix3.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKMatrix3.h; sourceTree = "<group>"; };
+		B8CDD3219DB280CF344E13BA05558C11 /* LMKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKAnnotationView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKAnnotationView.h; sourceTree = "<group>"; };
+		B8F52BB3DF04A4A21FDCE3FA12B6B92F /* XYMEDCallbackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMEDCallbackManager.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMEDCallbackManager.h; sourceTree = "<group>"; };
+		B99253B34EACBE11DDFA1AAF06670BEA /* SFEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFEncryption.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFEncryption.h; sourceTree = "<group>"; };
+		B9F2A8EA22A92CBF24A5695253076EA0 /* LMKGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKGeometry.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKGeometry.h; sourceTree = "<group>"; };
+		B9F6AABC84DB47EC965FDABEF4C126C4 /* LMKOfflineCityAggregate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineCityAggregate.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineCityAggregate.h; sourceTree = "<group>"; };
+		BA0BEBC33635647D04928C9DD6830930 /* XYMap3DKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DKit.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DKit.h; sourceTree = "<group>"; };
+		BC68F89B3268638C3FB6191634F6AA07 /* LMKUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKUserLocation.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKUserLocation.h; sourceTree = "<group>"; };
+		C0C1803E03A1B2DF329BF741C1EB03A0 /* LDASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIHTTPRequestDelegate.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		C1368913796D0D9549B788D60537D7A7 /* XYMap3DScaleLineOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DScaleLineOverlay.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DScaleLineOverlay.h; sourceTree = "<group>"; };
+		C251E87BE4D4487A656C3B37EB3A6338 /* Pods-SFMapSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMapSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		C84D90A71540E08ACC53BEABDC69B57E /* NSString+MD5Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Addition.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		CAAF27A77A253CABB3290264EE52E9B2 /* Pods-SFMapSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFMapSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB77CE9DA748A2680EB9E3082D4EEDAE /* LMKAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKAnnotation.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKAnnotation.h; sourceTree = "<group>"; };
+		CF342FA41426EF9950A7560C6C3B3377 /* LMKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCircle.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCircle.h; sourceTree = "<group>"; };
+		D1C27A1D09FDD1EA48DE2C1063C2648A /* LDKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDKit.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDKit.h; sourceTree = "<group>"; };
+		D98B2F34F7EB66B3BB8273481DD2A3BB /* me_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = me_common.h; path = SFMapSDK/SFMapSDK.framework/Headers/me_common.h; sourceTree = "<group>"; };
+		DB5C7A637AABB552B4B59A01E64EBF7E /* XYMap3DUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DUtils.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DUtils.h; sourceTree = "<group>"; };
+		DC4C36E9F6DFEE8BEC07EE5163110D16 /* LDASIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIHTTPRequest.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIHTTPRequest.h; sourceTree = "<group>"; };
+		DD88691611292D0733AB5E382E51AC0F /* XYMMapPlatformTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMMapPlatformTools.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMMapPlatformTools.h; sourceTree = "<group>"; };
+		DDC3DBD6340B0709485632FAFDBFF790 /* LDASIDataDecompressor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDASIDataDecompressor.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDASIDataDecompressor.h; sourceTree = "<group>"; };
+		E00DE75E42F8B18EA5D9C1952A985266 /* NSString+Base64Addtions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64Addtions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSString+Base64Addtions.h"; sourceTree = "<group>"; };
+		E1CD2DFAA0A5B0D853AF0B207571546F /* LMKOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOfflineProvince.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOfflineProvince.h; sourceTree = "<group>"; };
+		E2DC3EBBA5752ACC0C55259851D78901 /* SFCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFCrypto.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFCrypto.h; sourceTree = "<group>"; };
+		E2DDC7A3F6DBDA9ACD802E6C86CD3B90 /* SFMapCO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMapCO.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMapCO.h; sourceTree = "<group>"; };
+		E4D1FDAABC0F85B0D94176CF4B6D090B /* LMKOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKOverlayView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKOverlayView.h; sourceTree = "<group>"; };
+		E594CE9C3B2917AB3C784623636DF957 /* NSObject+LDClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LDClass.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSObject+LDClass.h"; sourceTree = "<group>"; };
+		E6525F2F44D316112F750DD23D5BADBE /* CPolygonBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPolygonBuilder.h; path = SFMapSDK/SFMapSDK.framework/Headers/CPolygonBuilder.h; sourceTree = "<group>"; };
+		E7F9ACC0B0E813437DA7561A926E13E1 /* Pods-SFMapSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFMapSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		E91AF4B119F3ED0D5E4A7A5DC283A5BE /* LMKCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKCircleView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKCircleView.h; sourceTree = "<group>"; };
+		E9F363A055E87E4DF0191B6178944DAE /* LMKGeoCodeAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKGeoCodeAPI.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKGeoCodeAPI.h; sourceTree = "<group>"; };
+		EB5052B320065194CB52D9C9A2C39F22 /* XYMap3DOverlayLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DOverlayLayer.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DOverlayLayer.h; sourceTree = "<group>"; };
+		EC47A82B225AFB69AE0E9573860ADFC0 /* SFMapFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFMapFoundation.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFMapFoundation.h; sourceTree = "<group>"; };
+		EC6A3EE2386AE1E4D90C73F04E754E1D /* SFCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFCompositeConstraint.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFCompositeConstraint.h; sourceTree = "<group>"; };
+		ECA853F8E973456E53DEE93E9F94FCAF /* XYMap3DView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYMap3DView.h; path = SFMapSDK/SFMapSDK.framework/Headers/XYMap3DView.h; sourceTree = "<group>"; };
+		EF5FDBD536E72353210C9742555EECE7 /* SFLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFLayoutConstraint.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFLayoutConstraint.h; sourceTree = "<group>"; };
+		F004CA3CE783854F1E099718EF8BF4F5 /* View+SFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+SFAdditions.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/View+SFAdditions.h"; sourceTree = "<group>"; };
+		F032AB34D26D2DE8639216D36EAB0D4C /* me_mapprivateapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = me_mapprivateapi.h; path = SFMapSDK/SFMapSDK.framework/Headers/me_mapprivateapi.h; sourceTree = "<group>"; };
+		F1CFF7F0FC8AA7F625836669FA5F5F38 /* NSString+SFHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SFHash.h"; path = "SFMapFoundation/SFMapFoundation.framework/Headers/NSString+SFHash.h"; sourceTree = "<group>"; };
+		F2D95C9553F782DCFA145D19874FDB15 /* Pods-SFMapSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMapSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F5FF904F8D3015A1416D690E1A3ACC0E /* Pods-SFMapSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMapSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F74CEBF8B3CCE8EB0A1F7EFF2224B71E /* LNGeometryAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNGeometryAddition.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LNGeometryAddition.h; sourceTree = "<group>"; };
+		F7DBDB96FE5B8532E9E3D6CCEEADAE83 /* LDFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDFoundation.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDFoundation.h; sourceTree = "<group>"; };
+		F8152258F9DA40CA78F02F080F479844 /* Pods-SFMapSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFMapSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8354DC1DDE28FA9EF4DFFD08D900EBE /* LMKWeakMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMKWeakMapView.h; path = SFMapSDK/SFMapSDK.framework/Headers/LMKWeakMapView.h; sourceTree = "<group>"; };
+		FC5885B55B539CAB50F873C8397B7A47 /* SFConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFConstraintMaker.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/SFConstraintMaker.h; sourceTree = "<group>"; };
+		FC68B0DB3D1DB69BDDBD10488F13D113 /* LDPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPropertyKey.h; path = SFMapFoundation/SFMapFoundation.framework/Headers/LDPropertyKey.h; sourceTree = "<group>"; };
+		FCB60B60AA6613208E282BEA721B2C0A /* me_maptools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = me_maptools.h; path = SFMapSDK/SFMapSDK.framework/Headers/me_maptools.h; sourceTree = "<group>"; };
+		FE8299C623D40A8AD3C0E75282901EB7 /* LMKGroundOverlay+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LMKGroundOverlay+Addition.h"; path = "SFMapSDK/SFMapSDK.framework/Headers/LMKGroundOverlay+Addition.h"; sourceTree = "<group>"; };
+		FF61F048C63ECE9E4A76959A81BAC10C /* GLKQuaternion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKQuaternion.h; path = SFMapSDK/SFMapSDK.framework/Headers/GLKQuaternion.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB864F0C7B8DCEFF810EB1757C1A01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480AE9C9F8387900C7AA9A613B62A5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79748C5C0F931434B8D4914663B2CEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A44E671ACAFDE3B270028FA24600148 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0727FAC1068D18ECBE64CA83614DF5CD /* Pods-SFMapSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1767E299003FB9FCCD0EF1A5E7F0687B /* Info.plist */,
+				A830833389B38EF8F8713CC6E572E941 /* Pods-SFMapSDK_Example.modulemap */,
+				65B83DB2B6C46A85A6AFC0C53E397856 /* Pods-SFMapSDK_Example-acknowledgements.markdown */,
+				AA98787B91D8724FECC2C7A9F44BB591 /* Pods-SFMapSDK_Example-acknowledgements.plist */,
+				98841DA4B6BB7984E24F4EB1AB40FE46 /* Pods-SFMapSDK_Example-dummy.m */,
+				81C12DEC37BF1B4E2ECC4DF42D3DFC0D /* Pods-SFMapSDK_Example-frameworks.sh */,
+				E7F9ACC0B0E813437DA7561A926E13E1 /* Pods-SFMapSDK_Example-resources.sh */,
+				8A550760590A49CB8F526F099C494E5B /* Pods-SFMapSDK_Example-umbrella.h */,
+				467AD3D18F72D0D2856926C046781BB4 /* Pods-SFMapSDK_Example.debug.xcconfig */,
+				F5FF904F8D3015A1416D690E1A3ACC0E /* Pods-SFMapSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-SFMapSDK_Example";
+			path = "Target Support Files/Pods-SFMapSDK_Example";
+			sourceTree = "<group>";
+		};
+		1F52C2F67364771EA77183F5D1ADA753 /* SFMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8388E93BB56EAE826DFCD273C00C47D4 /* CLineBuilder.h */,
+				E6525F2F44D316112F750DD23D5BADBE /* CPolygonBuilder.h */,
+				A30676A105DD546D4160E87EA5D0563B /* GLKit.h */,
+				9A3C15441764010E754E7D2BB523473B /* GLKMathTypes.h */,
+				30FEC1F9800A236B2DDA42D8C812A969 /* GLKMathUtils.h */,
+				B774F15C7AAA286D73B7BB428ECECF23 /* GLKMatrix3.h */,
+				FF61F048C63ECE9E4A76959A81BAC10C /* GLKQuaternion.h */,
+				5B407396A93F85191AAB1F700941B88F /* GLKVector2.h */,
+				22473529E91BD5CB6AC80B1FFC0540CE /* GLKVector3.h */,
+				234A56B47B00F975566B4F3658AF0DE2 /* GLKVector4.h */,
+				CB77CE9DA748A2680EB9E3082D4EEDAE /* LMKAnnotation.h */,
+				B8CDD3219DB280CF344E13BA05558C11 /* LMKAnnotationView.h */,
+				06033AEF6F206047FFFFF838084BC18C /* LMKArc.h */,
+				A84ACA9F6662A1CDC59AD40C4530079C /* LMKArcView.h */,
+				33245264B9947432F3A96FFB5E8D64AF /* LMKBezierBuilder.h */,
+				6CF9C912D72825F512403A5C46A7EE23 /* LMKBusRouteView.h */,
+				B4F5B692769FD361266BD9D190372575 /* LMKCalloutView.h */,
+				CF342FA41426EF9950A7560C6C3B3377 /* LMKCircle.h */,
+				B6ADB8FA37ABD7E2E4A4DC831EF621EC /* LMKCircle_Addition.h */,
+				E91AF4B119F3ED0D5E4A7A5DC283A5BE /* LMKCircleView.h */,
+				98F84BFF62A81C5C4D518BBB2B4597C0 /* LMKCluster.h */,
+				9F4C096312DE58738B0AD431E25DCA0F /* LMKClusterManager.h */,
+				2C1885BF7B0E54B337B9018039A80F6D /* LMKClusterQuadtree.h */,
+				B712B89983CADE040FF2EDA572D8F0B1 /* LMKCustomDrawOverlay.h */,
+				A60EA10F8497732FA48205DEBB297305 /* LMKDownLoader2.h */,
+				E9F363A055E87E4DF0191B6178944DAE /* LMKGeoCodeAPI.h */,
+				B9F2A8EA22A92CBF24A5695253076EA0 /* LMKGeometry.h */,
+				B2CFA461069D7B9852331562F5FE98DA /* LMKGLUtility.h */,
+				67D64E3D012DBD3BC1360CE7C61BF9FB /* LMKGroundOverlay.h */,
+				FE8299C623D40A8AD3C0E75282901EB7 /* LMKGroundOverlay+Addition.h */,
+				29FF2E87EE8FA14B8CB31FB2C946F529 /* LMKGroundOverlayView.h */,
+				A10379150A1DA9A3AD66E7DBC16C2597 /* LMKLineDrawType.h */,
+				1311CE37C2E897191F3A148DE6DA8842 /* LMKMapKit.h */,
+				86A57FA3EF5DE599E8D6D666A1B69B75 /* LMKMapServiceHelper.h */,
+				AAAF6CDE1DE3DC906F18D411F8360833 /* LMKMapServices.h */,
+				3D0EDCC5F013371D24EF56EDEB50C34B /* LMKMapView.h */,
+				172C7FB16001B60AF446BE0CBF9CDEBF /* LMKMapView+Private.h */,
+				94B94C32550C45E44B3EB3635B31EC01 /* LMKMarker.h */,
+				559F772834C11148507E05A21C362AEE /* LMKMultiPoint.h */,
+				14C51D69FD4B505536E7828AC2182192 /* LMKMultiPoint_Addition.h */,
+				662095E39822547310781BD00ED1EE0C /* LMKMultiPolyline.h */,
+				2232AD6FB69ABE3ADA6D0DFD50C30117 /* LMKMultiTexturePolylineView.h */,
+				B9F6AABC84DB47EC965FDABEF4C126C4 /* LMKOfflineCityAggregate.h */,
+				4F293495DF41DD4E318763E51DB0D80A /* LMKOfflineItem.h */,
+				1C0919E1FC68796623194328EE79CCA1 /* LMKOfflineItem+private.h */,
+				80844761934F67E3C50BEB819B5770C4 /* LMKOfflineItemCommonCity.h */,
+				906DA642351C13111EB94F919F18AF43 /* LMKOfflineItemMunicipality.h */,
+				8539ED83677D569FD3BE024826CE2AEC /* LMKOfflineItemNationWide.h */,
+				60BE64E1790335F1CA5A65E81BA01F61 /* LMKOfflineMap.h */,
+				E1CD2DFAA0A5B0D853AF0B207571546F /* LMKOfflineProvince.h */,
+				7A29DFCB55C87798778BD8FD178DFF2A /* LMKOverlay.h */,
+				7D0A2FE25B3C6E6078A14C1A1F8C5CC9 /* LMKOverlayFloor.h */,
+				554B9B0CC3D7F925C4F807C9F0978D28 /* LMKOverlayPathView.h */,
+				E4D1FDAABC0F85B0D94176CF4B6D090B /* LMKOverlayView.h */,
+				5DED2A13B46892E8D287829521119D1F /* LMKPinAnnotationView.h */,
+				6EC679C1E465C52C0FFFA9B73508B84E /* LMKPointAnnotation.h */,
+				44E3E75D552D25527DA07785A3909816 /* LMKPolygon.h */,
+				08C5B8CE52B532D8218018CC0808D392 /* LMKPolygonView.h */,
+				04F6A62D702A310A451125C5A6536F7E /* LMKPolyline.h */,
+				86691BE903C99EBD5896257E39D0C3A5 /* LMKPolylineView.h */,
+				246FD3138C6AC2D6AA4E40C439C3297C /* LMKQuadItem.h */,
+				1FA5DF833FA7339A2F00F79AD2B4163C /* LMKShape.h */,
+				B0DA4886985AA252BC5B7E24051C8C53 /* LMKTileOverlay.h */,
+				060DE2FA1238F7389380A9CCA68C000D /* LMKTileOverlayView.h */,
+				1ED364C8EFB76B1E5C9972BB5D2D942F /* LMKToastView.h */,
+				8DA864261930B801185CFB4C58708A8E /* LMKTouchPoi.h */,
+				BC68F89B3268638C3FB6191634F6AA07 /* LMKUserLocation.h */,
+				04AEFAE0B556C998EC30506729276A77 /* LMKViewRecycler.h */,
+				F8354DC1DDE28FA9EF4DFFD08D900EBE /* LMKWeakMapView.h */,
+				D98B2F34F7EB66B3BB8273481DD2A3BB /* me_common.h */,
+				A4C9D0C81DD61110330790CD3EA66590 /* me_defines.h */,
+				273C3FEE3F836A5EA121C937463775D2 /* me_mapapi.h */,
+				F032AB34D26D2DE8639216D36EAB0D4C /* me_mapprivateapi.h */,
+				FCB60B60AA6613208E282BEA721B2C0A /* me_maptools.h */,
+				ACDBC432D4FD4CEFCDC679E4F28E9B98 /* PVRTexture.h */,
+				82B11BA50428F2D26E4D2E8BB40D5742 /* utils.h */,
+				5D41DB6CFAADA52BC7328999CFE7DD5E /* WXMBaseView.h */,
+				5CB720DDD0A0D6957B643AA16544C7E9 /* WXMProjection.h */,
+				07868F74A89F9F90E570612404A299FC /* XYMap3DDefines.h */,
+				999D56A8C1A8F00C6D883A88E3A96444 /* XYMap3DGeomtery.h */,
+				BA0BEBC33635647D04928C9DD6830930 /* XYMap3DKit.h */,
+				EB5052B320065194CB52D9C9A2C39F22 /* XYMap3DOverlayLayer.h */,
+				22F5BE4899B04FA8471EE1F03D148924 /* XYMap3DOverlays.h */,
+				C1368913796D0D9549B788D60537D7A7 /* XYMap3DScaleLineOverlay.h */,
+				DB5C7A637AABB552B4B59A01E64EBF7E /* XYMap3DUtils.h */,
+				ECA853F8E973456E53DEE93E9F94FCAF /* XYMap3DView.h */,
+				B8F52BB3DF04A4A21FDCE3FA12B6B92F /* XYMEDCallbackManager.h */,
+				822B6DA1D24923189146F5EF48BB9C31 /* XYMGLContextManager.h */,
+				6B25369B0991453C128AF0816D1BABBC /* XYMMapPlatform.h */,
+				DD88691611292D0733AB5E382E51AC0F /* XYMMapPlatformTools.h */,
+				049CB3EA1956419FBEC6D8C3EDCE7390 /* XYMMapResManager.h */,
+				531B2397722ED3DC874765171B76391A /* XYMMapViewPlugin.h */,
+				A15ECA4760AB8B385433F21F042EED89 /* Frameworks */,
+				80141D1C7B1385F48198F9BEE2675CD3 /* Pod */,
+				5D8CF99E84F14AEBC18D1BD461C88E8A /* Resources */,
+			);
+			name = SFMapSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5CD3773293FC755E73ABB495E7020813 /* SFMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				80F32ED189BA37AC3E4C62E5C5CD40D5 /* LDASIAuthenticationDialog.h */,
+				02C2E8F1A8E639EE4E899AE7BF81181E /* LDASICacheDelegate.h */,
+				2310E4436461BE58899745FE9270C898 /* LDASIDataCompressor.h */,
+				DDC3DBD6340B0709485632FAFDBFF790 /* LDASIDataDecompressor.h */,
+				A2DFE027865175ADCB91C25A39AD17AA /* LDASIDownloadCache.h */,
+				430B8943C7644786B964E080C971F92B /* LDASIFormDataRequest.h */,
+				DC4C36E9F6DFEE8BEC07EE5163110D16 /* LDASIHTTPRequest.h */,
+				9DACE9AE9DDA2ECD36C1756DCF469D88 /* LDASIHTTPRequestConfig.h */,
+				C0C1803E03A1B2DF329BF741C1EB03A0 /* LDASIHTTPRequestDelegate.h */,
+				B6253558ED40EDF5D0A2D5902D98C288 /* LDASIInputStream.h */,
+				AC7FBB2BAE28F80BB7F1E2FBF6A117C7 /* LDASINetworkQueue.h */,
+				6954B94845A8CAAE2E48658EA25806C8 /* LDASIProgressDelegate.h */,
+				85426E7B08E52357CAA6532BD0453F1A /* LDASIReachability.h */,
+				13B141EF08974CFDB5C87A4C97D9E110 /* LDExtension.h */,
+				6EC8B342E581AA80984217A43213B029 /* LDExtensionConst.h */,
+				F7DBDB96FE5B8532E9E3D6CCEEADAE83 /* LDFoundation.h */,
+				D1C27A1D09FDD1EA48DE2C1063C2648A /* LDKit.h */,
+				46C081EE3F92BF12C713C58DF52CB942 /* LDProperty.h */,
+				FC68B0DB3D1DB69BDDBD10488F13D113 /* LDPropertyKey.h */,
+				B036D5EB3783FB200CD98B3981D77E90 /* LDPropertyType.h */,
+				52D07305652E6D262BAA24DD90E6E887 /* LNCoordConvert.h */,
+				1858925AB6E30945B092085C90B7FDAD /* LNCoreLocation.h */,
+				75E663151C4F9FB4CFAA52447AA65183 /* LNGeometry.h */,
+				F74CEBF8B3CCE8EB0A1F7EFF2224B71E /* LNGeometryAddition.h */,
+				08BB2241F6AF961D4E44F87D04097B87 /* NSArray+SFAdditions.h */,
+				1874FC57E39D2969FB45832EF86FFD99 /* NSArray+SFShorthandAdditions.h */,
+				310E97B34027ED19EA700742349F3293 /* NSData+Base64Additions.h */,
+				0CFBBA4687F364333C857D88227AD76B /* NSData+SFAES.h */,
+				870F7ECB5E9F887599266ACBDDF9104C /* NSLayoutConstraint+SFDebugAdditions.h */,
+				E594CE9C3B2917AB3C784623636DF957 /* NSObject+LDClass.h */,
+				6998733A59F698F33FA74F25E88F1536 /* NSObject+LDCoding.h */,
+				2919C2B6E71B1862FB0BC94AEABC0BD3 /* NSObject+LDKeyValue.h */,
+				1C969D81C7F5CBFBE7B0D526F1C35F34 /* NSObject+LDProperty.h */,
+				E00DE75E42F8B18EA5D9C1952A985266 /* NSString+Base64Addtions.h */,
+				95DB55670F81F77FC20032B56C2A42BF /* NSString+LDExtension.h */,
+				231C51F73DC838DA85F9B9B342957BDF /* NSString+LDNaviAdditions.h */,
+				C84D90A71540E08ACC53BEABDC69B57E /* NSString+MD5Addition.h */,
+				F1CFF7F0FC8AA7F625836669FA5F5F38 /* NSString+SFHash.h */,
+				144A27561F415CAB6DB4C33D4A9C14E4 /* SF3DESEncryptUtil.h */,
+				97D417521F4B69510B409D4DBC42AAEB /* SFAuthenticate.h */,
+				EC6A3EE2386AE1E4D90C73F04E754E1D /* SFCompositeConstraint.h */,
+				B5B2DB1748AE282B737029831760EF7D /* SFConstraint.h */,
+				119CBA584EF16E5841E40D3A6759511A /* SFConstraint+Private.h */,
+				FC5885B55B539CAB50F873C8397B7A47 /* SFConstraintMaker.h */,
+				E2DC3EBBA5752ACC0C55259851D78901 /* SFCrypto.h */,
+				8A7D4FB5804745236CE9A7EB9A9AB201 /* SFDESCrypto.h */,
+				B99253B34EACBE11DDFA1AAF06670BEA /* SFEncryption.h */,
+				2C0C10ACEA0906083AA4646B6BC3C632 /* SFEncryptionHelper.h */,
+				ADCF48A6458B342B1929A72F17789EA7 /* SFFoundationHelper.h */,
+				7018CDD3D9B32A99ADE3CFE93DA9D815 /* SFGzipUtility.h */,
+				EF5FDBD536E72353210C9742555EECE7 /* SFLayoutConstraint.h */,
+				E2DDC7A3F6DBDA9ACD802E6C86CD3B90 /* SFMapCO.h */,
+				EC47A82B225AFB69AE0E9573860ADFC0 /* SFMapFoundation.h */,
+				954B3EAE5D3BE24F4629E0AA83BAD76A /* SFMasonry.h */,
+				34E5956BD3DFB4E3E4848B899B8E9869 /* SFMCache.h */,
+				47EB3D2C0DE2F35FF7AA007558805C7A /* SFMDiskCache.h */,
+				61370C98518595238D4D9B44B2D5ECCB /* SFMKVStorage.h */,
+				B44B887F4DBA64A412F81AD49A6810C6 /* SFMMemoryCache.h */,
+				71B43F8206CB4A62BF18CA5447DF41EA /* SFOfflineAuthentication.h */,
+				5F4BA50ACDB8D841B5B48CA2A77F2648 /* SFRSA.h */,
+				912A2FA5A123D3992129CCE73423E2C7 /* SFUtilities.h */,
+				22B6F6319BC5D7B7665C7B5717AAFC78 /* SFViewAttribute.h */,
+				77F9FDEF0107D32EA9D11CCCBB71E2AB /* SFViewConstraint.h */,
+				F004CA3CE783854F1E099718EF8BF4F5 /* View+SFAdditions.h */,
+				15C3617F670B348A2431F84E2C301F33 /* ViewController+SFAdditions.h */,
+				1878CCDB55ECBAB260FDDCBEA3D2E44F /* ZipArchive.h */,
+				60CB02400341CF5CE005D4A6E6B53BD3 /* Frameworks */,
+			);
+			name = SFMapFoundation;
+			path = SFMapFoundation;
+			sourceTree = "<group>";
+		};
+		5D8CF99E84F14AEBC18D1BD461C88E8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EAAE6F057EE863C0388389320D56C2E /* LDMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60CB02400341CF5CE005D4A6E6B53BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5051332AFA5F1BA4FE4A58ED7F311 /* SFMapFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E55A438CA0D6FEC8B28D54A06D96209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF29F85695277AF5EE23B7FFDA11D961 /* Pods_SFMapSDK_Example.framework */,
+				7E10B175BA9BA85111DEB55DE5C550CB /* Pods_SFMapSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D1A627AF11200C0FA2E2AAAF86B7EFF5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F09967761235E7859F02FB3660318865 /* Pods */,
+				6E55A438CA0D6FEC8B28D54A06D96209 /* Products */,
+				DEEFB4F015577F8915BB1D43ED23C544 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80141D1C7B1385F48198F9BEE2675CD3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD5683B6B1F2CF64EFF88EF09BDD5C /* LICENSE */,
+				387752926C1F7C5B0AF75CC6AFF4C446 /* README.md */,
+				3B83D60F30564E1025962E0D99187192 /* SFMapSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A15ECA4760AB8B385433F21F042EED89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D77F98A1FFEA81617692A773CB3CFC1 /* SFMapSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE279B967CA30E3871A388E0D9A7C396 /* Pods-SFMapSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				726650F1ECD3D6D5E539FAE6355D8960 /* Info.plist */,
+				336A16B5FD3798A8DCCEE29DCE90BF2C /* Pods-SFMapSDK_Tests.modulemap */,
+				28C18038C2B95B22CD2AED900AAAB6B5 /* Pods-SFMapSDK_Tests-acknowledgements.markdown */,
+				CAAF27A77A253CABB3290264EE52E9B2 /* Pods-SFMapSDK_Tests-acknowledgements.plist */,
+				6DF9D5E3AD22E9C86747C289CE707215 /* Pods-SFMapSDK_Tests-dummy.m */,
+				AF7BB51BF9E43E31B31E6B9FA6EA58C2 /* Pods-SFMapSDK_Tests-frameworks.sh */,
+				C251E87BE4D4487A656C3B37EB3A6338 /* Pods-SFMapSDK_Tests-resources.sh */,
+				2B797476CB16B3B61DF1ED88ADC7BE40 /* Pods-SFMapSDK_Tests-umbrella.h */,
+				F8152258F9DA40CA78F02F080F479844 /* Pods-SFMapSDK_Tests.debug.xcconfig */,
+				F2D95C9553F782DCFA145D19874FDB15 /* Pods-SFMapSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-SFMapSDK_Tests";
+			path = "Target Support Files/Pods-SFMapSDK_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A627AF11200C0FA2E2AAAF86B7EFF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F52C2F67364771EA77183F5D1ADA753 /* SFMapSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DEEFB4F015577F8915BB1D43ED23C544 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0727FAC1068D18ECBE64CA83614DF5CD /* Pods-SFMapSDK_Example */,
+				AE279B967CA30E3871A388E0D9A7C396 /* Pods-SFMapSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F09967761235E7859F02FB3660318865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3773293FC755E73ABB495E7020813 /* SFMapFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6B69B088FF59B6C0F68D78595C6B7AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B038268AD00D2DF5D9B8928C75089788 /* Pods-SFMapSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD267F4B0E4D33811E66E805360CEFD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF534B5BE45EB78BDF23307F5312D0D /* Pods-SFMapSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0170D740B6EEFF9B66791BC2F942A452 /* Pods-SFMapSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94156DD01781C93EFD98DAD1C949AD15 /* Build configuration list for PBXNativeTarget "Pods-SFMapSDK_Example" */;
+			buildPhases = (
+				A6B69B088FF59B6C0F68D78595C6B7AB /* Headers */,
+				6167C43E33E574D7D035951E291B04B4 /* Sources */,
+				79748C5C0F931434B8D4914663B2CEA3 /* Frameworks */,
+				D96BA06FE07654939C395CAC1395E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SFMapSDK_Example";
+			productName = "Pods-SFMapSDK_Example";
+			productReference = AF29F85695277AF5EE23B7FFDA11D961 /* Pods_SFMapSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62EE14444C9E0010828892905E0E3CC3 /* Pods-SFMapSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A142C1E68F87C993FF3FB0BC464C82C1 /* Build configuration list for PBXNativeTarget "Pods-SFMapSDK_Tests" */;
+			buildPhases = (
+				CD267F4B0E4D33811E66E805360CEFD4 /* Headers */,
+				F0434CA5D6E1C3ADC531552B807D524B /* Sources */,
+				4EB864F0C7B8DCEFF810EB1757C1A01C /* Frameworks */,
+				01196E08909CDC2E335B817B396AC151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D23EAEBBB1DB9EC246F9B8FBC9ACBAC /* PBXTargetDependency */,
+			);
+			name = "Pods-SFMapSDK_Tests";
+			productName = "Pods-SFMapSDK_Tests";
+			productReference = 7E10B175BA9BA85111DEB55DE5C550CB /* Pods_SFMapSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6E55A438CA0D6FEC8B28D54A06D96209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0170D740B6EEFF9B66791BC2F942A452 /* Pods-SFMapSDK_Example */,
+				62EE14444C9E0010828892905E0E3CC3 /* Pods-SFMapSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01196E08909CDC2E335B817B396AC151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96BA06FE07654939C395CAC1395E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6167C43E33E574D7D035951E291B04B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47522C4E995C295E9EC94FA494445FF8 /* Pods-SFMapSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0434CA5D6E1C3ADC531552B807D524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57980B45FB57F461034A4272B42531 /* Pods-SFMapSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D23EAEBBB1DB9EC246F9B8FBC9ACBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SFMapSDK_Example";
+			target = 0170D740B6EEFF9B66791BC2F942A452 /* Pods-SFMapSDK_Example */;
+			targetProxy = 550170CEBBECA4D4D942475C0B168679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349F23D0943B68896127317B9D30BE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8152258F9DA40CA78F02F080F479844 /* Pods-SFMapSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMapSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMapSDK_Tests/Pods-SFMapSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BF2D751926AEEC7C65CF2CC3CE0336F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FF904F8D3015A1416D690E1A3ACC0E /* Pods-SFMapSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMapSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMapSDK_Example/Pods-SFMapSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63CB703D979535CF499B24EB745D4DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D95C9553F782DCFA145D19874FDB15 /* Pods-SFMapSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMapSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMapSDK_Tests/Pods-SFMapSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1EC04096EEC968E147B058FE1075F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467AD3D18F72D0D2856926C046781BB4 /* Pods-SFMapSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFMapSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFMapSDK_Example/Pods-SFMapSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94156DD01781C93EFD98DAD1C949AD15 /* Build configuration list for PBXNativeTarget "Pods-SFMapSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EC04096EEC968E147B058FE1075F95 /* Debug */,
+				5BF2D751926AEEC7C65CF2CC3CE0336F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A142C1E68F87C993FF3FB0BC464C82C1 /* Build configuration list for PBXNativeTarget "Pods-SFMapSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349F23D0943B68896127317B9D30BE42 /* Debug */,
+				63CB703D979535CF499B24EB745D4DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

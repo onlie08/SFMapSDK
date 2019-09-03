@@ -1,0 +1,6 @@
+framework module SFMapFoundation {
+  umbrella header "SFMapFoundation.h"
+
+  export *
+  module * { export * }
+}

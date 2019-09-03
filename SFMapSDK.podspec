@@ -30,13 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SFMapSDK/Classes/**/*'
-  
+  s.source_files = 'SFMapSDK/SFMapSDK.framework/Headers/*.{h}'
+
+  s.vendored_frameworks = 'SFMapSDK/SFMapSDK.framework'
+
+  s.public_header_files = 'SFMapSDK/SFMapSDK.framework/Headers/LMKMapKit.h'
+
+  s.resources = ['SFMapSDK/Assets/*.bundle']
   # s.resource_bundles = {
   #   'SFMapSDK' => ['SFMapSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SFMapFoundation'
 end

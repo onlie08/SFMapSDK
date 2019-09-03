@@ -1,0 +1,6 @@
+framework module SFMapSDK {
+  umbrella header "SFMapSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
