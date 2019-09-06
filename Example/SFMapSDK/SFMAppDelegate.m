@@ -7,11 +7,24 @@
 //
 
 #import "SFMAppDelegate.h"
+#import "SFMViewController.h"
+#import <SFMapSDK/LMKMapKit.h>
 
 @implementation SFMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//    [LMKMapServices sharedServices].apiKey = @"07af867a0f4b4472abd768ebdc132117";
+    [LMKMapServices sharedServices].apiKey = @"8c21bbd186ff4392b9605bd59c6b1fb2";
+   
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    SFMViewController *mainVC = [[SFMViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    [self.window setRootViewController:navigationController];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
